@@ -1,0 +1,24 @@
+
+ul{
+    list-style: none
+}
+
+.user-profile{
+    position: absolute;
+    float:'right';
+    margin-left:400px;
+}
+.contact-list-chat{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    place-items: center;
+    padding: 8px 3px;
+}
+
+.homes{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    margin-left: 0 !important;
+}

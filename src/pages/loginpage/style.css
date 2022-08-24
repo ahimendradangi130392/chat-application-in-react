@@ -1,0 +1,52 @@
+
+
+
+.main-container.login{
+    width: 100%;
+    height: 83vh;
+  
+}
+.login-container h3{
+    text-align: center;
+}
+
+.login-container{
+    display:flex;
+    box-shadow: 2px 2px 7px #9a7b7bb0;
+    flex-direction: column;
+    max-width: 461px;
+    min-height: 340px;
+  justify-content: space-around;
+    margin:  auto ;
+    margin-top: 100px;
+    background: rgba(246, 243, 243, 0.941);
+border-radius: 30px;
+
+}
+.login-container button{
+    margin-left: 0 !important;
+}
+
+.user-input{
+    width: 80%;
+    align-self: center;
+    
+}
+
+.MuiInputBase-root{
+    margin-bottom: 30px;
+}
+
+.btn-input{
+    width: 40% !important;
+    align-self: center;
+    border-radius: 15px;
+}
+
+
+@media only screen and (max-width :480px) {
+    .login-container{
+      margin-left: 10px;
+      margin-right:  10px;
+    }
+  }
